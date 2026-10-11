@@ -1,0 +1,9 @@
+{
+  "sample_rate": 44100,
+  "channels": "stereo",
+  "max_duration_ms": 1400,
+  "seed": 44,
+  "actions": "asset-src/death.actions.json",
+  "preview": "asset-src/death-preview.png",
+  "wav": "assets/audio/death.wav"
+}

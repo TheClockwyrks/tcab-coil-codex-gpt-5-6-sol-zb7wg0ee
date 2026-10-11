@@ -1,0 +1,76 @@
+[
+  {
+    "op": "add_voice",
+    "name": "bass",
+    "wave": "saw",
+    "freq": 150.0,
+    "gain": -8.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 850.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "bass",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "punch"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "bass",
+    "slide_to_hz": 38.0,
+    "over_ms": 780.0
+  },
+  {
+    "op": "add_filter",
+    "target": {
+      "voice": "bass"
+    },
+    "kind": "lowpass",
+    "cutoff_hz": 900.0,
+    "sweep_to_hz": 180.0,
+    "over_ms": 800.0,
+    "resonance": 2.2
+  },
+  {
+    "op": "add_voice",
+    "name": "impact",
+    "wave": "noise",
+    "freq": 440.0,
+    "gain": -15.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 420.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "impact",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "punch"
+  },
+  {
+    "op": "add_filter",
+    "target": {
+      "voice": "impact"
+    },
+    "kind": "lowpass",
+    "cutoff_hz": 1300.0,
+    "sweep_to_hz": 120.0,
+    "over_ms": 400.0,
+    "resonance": 0.707
+  },
+  {
+    "op": "add_reverb",
+    "target": {
+      "bus": "master"
+    },
+    "size": 0.55,
+    "mix": 0.22
+  }
+]

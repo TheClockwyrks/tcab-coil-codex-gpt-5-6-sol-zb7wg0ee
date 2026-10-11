@@ -1,0 +1,9 @@
+{
+  "sample_rate": 44100,
+  "channels": "stereo",
+  "max_duration_ms": 700,
+  "seed": 43,
+  "actions": "asset-src/combo.actions.json",
+  "preview": "asset-src/combo-preview.png",
+  "wav": "assets/audio/combo-up.wav"
+}

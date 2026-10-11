@@ -1,0 +1,9 @@
+{
+  "sample_rate": 44100,
+  "channels": "stereo",
+  "max_duration_ms": 500,
+  "seed": 42,
+  "actions": "asset-src/eat.actions.json",
+  "preview": "asset-src/eat-preview.png",
+  "wav": "assets/audio/eat.wav"
+}

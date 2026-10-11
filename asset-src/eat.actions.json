@@ -1,0 +1,46 @@
+[
+  {
+    "op": "add_voice",
+    "name": "ping",
+    "wave": "square",
+    "freq": 620.0,
+    "gain": -10.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 105.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "ping",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "ping",
+    "slide_to_hz": 900.0,
+    "over_ms": 85.0
+  },
+  {
+    "op": "add_voice",
+    "name": "click",
+    "wave": "noise",
+    "freq": 440.0,
+    "gain": -24.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 45.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "click",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  }
+]

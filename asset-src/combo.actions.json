@@ -1,0 +1,54 @@
+[
+  {
+    "op": "add_voice",
+    "name": "sparkle",
+    "wave": "triangle",
+    "freq": 880.0,
+    "gain": -11.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 260.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "sparkle",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "sparkle",
+    "slide_to_hz": 1440.0,
+    "over_ms": 220.0
+  },
+  {
+    "op": "add_voice",
+    "name": "shine",
+    "wave": "sine",
+    "freq": 1320.0,
+    "gain": -17.0,
+    "pan": 0.0,
+    "start_ms": 90.0,
+    "dur_ms": 250.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "shine",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "add_reverb",
+    "target": {
+      "bus": "master"
+    },
+    "size": 0.25,
+    "mix": 0.12
+  }
+]

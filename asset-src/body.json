@@ -1,0 +1,8 @@
+{
+  "width": 32,
+  "height": 32,
+  "background": "#00000000",
+  "actions": "asset-src/body.actions.json",
+  "preview": "assets/snake/body.png",
+  "layers": "asset-src/body.layers.json"
+}

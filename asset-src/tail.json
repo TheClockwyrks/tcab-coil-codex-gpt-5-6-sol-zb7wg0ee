@@ -1,0 +1,8 @@
+{
+  "width": 32,
+  "height": 32,
+  "background": "#00000000",
+  "actions": "asset-src/tail.actions.json",
+  "preview": "assets/snake/tail.png",
+  "layers": "asset-src/tail.layers.json"
+}

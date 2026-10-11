@@ -1,0 +1,8 @@
+{
+  "width": 32,
+  "height": 32,
+  "background": "#00000000",
+  "actions": "asset-src/corner.actions.json",
+  "preview": "assets/snake/corner.png",
+  "layers": "asset-src/corner.layers.json"
+}
